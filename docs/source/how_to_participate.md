@@ -1,11 +1,14 @@
 # How to Participate
 
-## Step 1: Download the data and the question form
-You can download all the data from this [repo]. Data is available as `.npy` or `.mat`. The total size is roughly 29 Gb.
+## Step 1: Download the data and the questionnaire
+You can download all the data from this [repo*](https://ibl-brain-wide-map-public.s3.amazonaws.com/index.html#resources/con2phys/). 
+Data is available as `.npy` or `.mat`. The total size is roughly 29 Gb.
 If you download the `.npy` version of the dataset, in the same repo you'll also find a few scripts to make sure that you 
 downloaded the entire dataset. A full description of the dataset is availabe in [Data Structure](data_structure.md).
 
-The question form is available [here](_static/questionnaire.pdf).
+Download the questionnaire from [here](_static/questionnaire.pdf).
+
+*the IBL has been so kind as to support us for data hosting. **This does not mean that the dataset is an IBL dataset**
 
 ## Step 2: Run the analysis  
 Answer the questions provided in `questionnaire.pdf` using **your usual pipeline**, your preferred tools, you usual hyper-parameters, and your usual assumtions.
