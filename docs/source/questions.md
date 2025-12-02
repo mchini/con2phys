@@ -2,11 +2,12 @@
 
 The [questionnaire](_static/questionnaire.pdf):
 
-- Consists of 15 questions, arranged in order of increasing complexity and abstraction, from basic "sanity checks" to abstract 
+- Consists of 15 multiple-choice questions, arranged in order of increasing complexity and abstraction, from basic "sanity checks" to abstract 
 concepts such as dimensionality and complexity; 
 - Covers a broad spectrum of ephys topics (e.g., spike-spike interactions, functional connectivity, phase locking, 
 excitation–inhibition balance, intrinsic neuronal timescales, decoding, dimensionality, modularity, and signal complexity);
-- Uses a common answer template for all questions, combining a forced-choice answer, quantitative estimates, and a short description of the analytical steps; 
+- Uses a common answer template for all questions, combining a multiple-choice answer, quantitative estimates, and a short description of the analytical steps
+(**code snippets are strongly encouraged**); 
 - Collects meta-information about how each answer was obtained, including confidence, prior experience, and expected consensus among participants. 
 
 The following information is collected for each question:
@@ -68,8 +69,7 @@ For example, a typical table might look like:
 - Area 2     |  …   |    …     |  …
 - Area 3     |  …   |    …     |  …
 
-Participants are free to choose how they compute these estimates (e.g. parametric vs. non-parametric, frequentist vs. Bayesian), 
-as long as they describe it clearly in the methods section for that question.
+Participants are free to choose how they compute these estimates, as long as they describe it clearly in the methods section for that question.
 Using a single central-tendency estimate (the mean) is limiting, but necessary to make estimates comparable. You are free to transform
 the data as you best see fit.
 
@@ -82,13 +82,13 @@ For each question, participants briefly explain **how** they reached their answe
 
 They are asked to:
 
-* Describe **inclusion/exclusion criteria** (e.g. which units, channels, time windows, trial types);
-* Outline the **step-by-step analytical and statistical approach** (e.g. preprocessing, feature extraction, statistics, model fitting);
-* Summarize the **key quantitative results** (e.g. effect sizes, confidence intervals, p-values or posterior intervals).
+* Describe inclusion/exclusion criteria (e.g. which units, channels, time windows, trial types);
+* Outline the step-by-step analytical and statistical approach;
+* Summarize the key quantitative results.
 
 Participants are strongly encouraged to:
 
-* Provide **code snippets** (Python, MATLAB, Julia, R, etc.) that implement their analysis; or
+* Provide **code snippets** (Python, MATLAB, R, etc.) that implement their analysis; or
 * If code cannot be shared, give a **clear, reproducible description** of the analysis pipeline.
 
 The goal is that another participant, given the same data and the description/code, could in principle reproduce the answer.
@@ -104,15 +104,17 @@ The full questionnaire includes 15 questions. Here are some practical examples t
 
    - Q1. Which brain area has the lowest firing rate over the entire recording?
 
+
 2. **Intermediate questions on specific/concrete phenomena**
 
    - Q3. Which brain area (if any) has the highest density of ripples?
+
 
 3. **Abstract questions about information and complexity**
 
    - Q11. Which brain area contains most information about variable A?
    
-These examples are illustrative; participants will see the full list of 15 questions in the questionnaire document. 
+These examples are illustrative; participants can see the full list of 15 questions in the [questionnaire](/_static/questionnaire.pdf) document. 
 
 ---
 (time-commitment-and-expectations)=
@@ -121,7 +123,7 @@ These examples are illustrative; participants will see the full list of 15 quest
 
 Participants are **only expected to answer questions on topics for which they have prior knowledge** 
 and feel comfortable implementing or interpreting the relevant analyses. 
-It is acceptable—and expected—that some questions will be skipped if they fall outside the participant’s expertise.
+It is acceptable that some questions will be skipped if they fall outside the participant’s expertise.
 
 The total time commitment depends strongly on prior experience with similar datasets and on coding abilities, but is typically expected to be
 **between ~20 and ~50 hours** in total.
