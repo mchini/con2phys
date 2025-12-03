@@ -4,22 +4,24 @@
 **CON²PHYS** is a collaborative study that aims to quantify how much -- or how little -- consensus exists among neuroscientists when interpreting fundamental 
 in vivo electrophysiology concepts.  
 
-The rationale behind this project is the suspicion that **system neuroscience** is becoming an ever-increasingly **fragmented field**.
+The rationale behind this project is the suspicion that **systems neuroscience** is becoming an increasingly **fragmented field**.
 Terms like “representation”, “functional connectivity” or "gamma oscillations" sound universal,
 yet their definitions and implementations vary wildly depending on who you ask. 
 
-Do these differences make a difference? That’s precisely the empirical question that CON²PHYS will answers.
+Do these differences make a difference? That’s precisely the empirical question that CON²PHYS will answer.
 
-We ask a set of seemingly straightforward, deliberately underspecified questions that tap map to core system neuroscience concepts. 
-Participants answer by analyzing a single dataset with their own assumptions and pipelines. 
-The goal is to reveal how individual analytical choices -- often arbitrary, often invisible -- might ultimately lead to different results while 
-simulating how the community would typically answer a high-level scientific question. 
+## How does the project work?
 
-**Participation is open** to all neuroscientists with substantial prior system neuroscience experience regardless of the subdiscipline: 
-from computational to cellular neuroscience, and everything in between.
+We will give you a single dataset to analyze and 15 multiple-choice questions to answer. 
+The questions will be seemingly straightforward and deliberately underspecified. 
+You will answer using your own assumptions and pipelines. 
+The goal is to reveal how individual analytical choices -- often arbitrary, often invisible -- might ultimately lead to different results. 
 
-Use the navigation tabs to learn how to take part, explore the dataset, read and submit the questionnaire, understand what you gain from contributing
-(**co-authorship for ~30–50 hours of work**), and find out more about the two hackathons in which we pilot(ed) CON²PHYS.
+**Participation is open** to all neuroscientists with substantial prior systems neuroscience experience regardless of the subdiscipline: 
+from computational to cellular neuroscience, and everything in between. Participation comes with a concrete incentive: 
+you are expected to invest roughly 30–50 hours of work and will be **included as co-author on the main CON²PHYS manuscript**.
+
+Ready to get started? Go to [How to Participate](how_to_participate.md) to find out how this works in practice.
 
 ---
 
