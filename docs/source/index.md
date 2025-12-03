@@ -17,7 +17,7 @@ The questions are seemingly straightforward and deliberately underspecified, and
 The goal is to reveal how our everyday analytical choices -- often arbitrary, often invisible -- might ultimately lead to different results. 
 
 **Participation is open** to all neuroscientists with substantial prior systems neuroscience experience regardless of the subdiscipline: 
-from computational to cellular neuroscience, and everything in between. Participation comes with a concrete incentive: 
+from computational to molecular neuroscience, and everything in between. Participation comes with a concrete incentive: 
 you are expected to invest roughly 30–50 hours of work and will be **included as co-author on the main CON²PHYS manuscript**.
 
 Ready to get started? Go to [How to Participate](how_to_participate.md) to find out how this works in practice.

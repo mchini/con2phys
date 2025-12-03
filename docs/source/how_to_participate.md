@@ -26,8 +26,8 @@ All data and information needed to answer the questions is described in [Data St
 
 You will answer by selecting one of four multiple-choice options and briefly giving the quantitative estimates that you used. 
 Each question also includes a couple of multiple-choice meta-questions about your confidence in the answer you provided. 
-Lastly, while optional, we strongly encourage you to submit a brief explanation (~2-5 sentences) of how you arrived at your answer 
-(preferably, **a snippet of the code you used**). A more thorough explanation of the questions is available in [Questions](questions.md).
+Lastly, you will briefly explain (~2-5 sentences) how you arrived at your answer 
+(preferably, by giving **a snippet of the code you used**). A more thorough description of the questions is available in [Questions](questions.md).
 
 You only need to answer questions about concepts with which you have direct, prior experience. We do not expect you to 
 learn new analytical concepts to participate in the study.

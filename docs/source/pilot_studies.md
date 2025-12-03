@@ -3,10 +3,10 @@
 ## Pilot study 1 – Bernstein Conference 2025 (PhD Symposium)
 
 The first pilot study ran as a hackathon during the Bernstein Conference 2025 PhD Symposium, with roughly 80 participants divided into small teams. 
-The teams tackled four questions from the CON²PHYS questionnaire that the participants had previously selected,
+The teams tackled five questions from the CON²PHYS questionnaire that the participants had previously selected,
 and worked on them for a full-day hackathon using the shared dataset.
 
-Overall, very little consensus emerged across the teams on any of the four questions. 
+Overall, very little consensus emerged across the teams on any of the five questions. 
 Answers diverged both in terms of chosen analyses and in the resulting quantitative estimates, confirming that conceptual variability was substantial.
 
 ```{figure} _static/fig1-anonymized.png
