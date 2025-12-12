@@ -1,7 +1,7 @@
 # CON²PHYS: CONceptual CONsistency in ePHYS
 ## One dataset, one questionnaire, many truths
 
-**CON²PHYS** is a collaborative study that aims to quantify how much -- or how little -- consensus exists among neuroscientists when interpreting fundamental 
+**CON²PHYS** is a collaborative study that aims to quantify how much, or how little, consensus exists among neuroscientists when interpreting fundamental 
 in vivo electrophysiology concepts.  
 
 This project stems from the conviction that **systems neuroscience** is becoming an increasingly **fragmented field**.
