@@ -3,14 +3,16 @@
 ## Step 1: Download the data and the questionnaire
 
 You can download all the data from this DANDI [repository](https://ibl-brain-wide-map-public.s3.amazonaws.com/index.html#resources/con2phys/)*.
-Thanks to [Ryan Ly](https://github.com/rly), the `.npy` version of the 
-[dataset](https://sandbox.dandiarchive.org/dandiset/218201?page=1&sortOption=0&sortDir=-1&showDrafts=true&showEmpty=false&pos=3) 
-is now also available in the NWB format, 
-which comes with increased ease-of-use with many pipelines (e.g. pynapple), and several useful built-in visualization tools!
+
 Data is available as `.npy` or `.mat`. The total size of the dataset is roughly 29 GB.
 If you download the `.npy` version of the dataset, you can use these [code snippets](/_static/code-snippets.zip) 
 to check that you downloaded the entire dataset and start playing around with the data. 
 A full description of the dataset is available in [Data Structure](data_structure.md).
+
+Thanks to [Ryan Ly](https://github.com/rly), the `.npy` version of the 
+[dataset](https://sandbox.dandiarchive.org/dandiset/218201?page=1&sortOption=0&sortDir=-1&showDrafts=true&showEmpty=false&pos=3) 
+is now also available in the NWB format, 
+which comes with increased ease-of-use with many pipelines (e.g. pynapple), and several useful built-in visualization tools!
 
 Download the questionnaire from [here](/_static/questionnaire.pdf).
 
