@@ -2,7 +2,7 @@
 
 ## Step 1: Download the data and the questionnaire
 
-You can download all the data from this DANDI [repository](https://ibl-brain-wide-map-public.s3.amazonaws.com/index.html#resources/con2phys/)*.
+You can download all the data from this s3 [repository](https://ibl-brain-wide-map-public.s3.amazonaws.com/index.html#resources/con2phys/)*.
 
 Data is available as `.npy` or `.mat`. The total size of the dataset is roughly 29 GB.
 If you download the `.npy` version of the dataset, you can use these [code snippets](/_static/code-snippets.zip) 
