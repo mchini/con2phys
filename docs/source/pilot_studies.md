@@ -36,7 +36,7 @@ Questions on neural decoding were a notable exception, yielding substantially mo
 The aggregated results across both pilot studies are shown below.
 
 ```{figure} _static/pilot-study.png
-:scale: 35
+:scale: 70
 :align: center
 :name: fig-pilot-combined
 
