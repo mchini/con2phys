@@ -23,7 +23,7 @@ you are expected to invest roughly 30–50 hours of work and will be **included 
 ## Project timeline
 
 The CON²PHYS project is **now open for participation**.
-You can submit your analyses and questionnaire responses until 30 September 2026.
+You can submit your analyses and questionnaire responses until 30 November 2026.
 
 Ready to get started? Go to [How to Participate](how_to_participate.md) to find out how this works in practice.
 
