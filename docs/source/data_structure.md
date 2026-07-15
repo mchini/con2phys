@@ -1,6 +1,7 @@
 # Data Structure
 
-The [dataset](https://sandbox.dandiarchive.org/dandiset/218201/draft):
+<!-- DANDI link temporarily disabled: https://sandbox.dandiarchive.org/dandiset/218201/draft -->
+The dataset:
 
 - Consists of 18 compressed files, each corresponding to one of the 18 mice included in the dataset;
 - Comprises single-unit activity (SUA) and local field potentials (LFP) recorded using a Neuropixels probe during a behavioral task;
@@ -73,7 +74,7 @@ For each mouse, the following data is provided:
 
 **LFP** (`.npy`, `.mat`):
 - `lfp1`, `lfp2`, `lfp3` each contain `[num_channels × timestamps]` arrays of LFP signals.  
-- The number of channels varies across brain areas and across mice. The minimum number of channels per brain area is 20.  
+- The number of channels varies across brain areas and across mice. The minimum number of channels per brain area is 10.  
 - Channels within a brain area are contiguous in space, but channels from different brain areas are not.  
 - Channels within a brain area are ordered from the deepest to the most superficial with respect to the brain surface.  
 - The dataset includes every other channel from the Neuropixels probe. The vertical spacing between recording sites is 20 µm.
