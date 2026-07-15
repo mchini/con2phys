@@ -1,5 +1,9 @@
 # Pilot studies
 
+CON²PHYS was piloted at three major neuroscience meetings: the Bernstein Conference, the Pre-COSYNE Brainhack, and the Pre-FENS Brainhack. These events reached communities with substantially different scientific backgrounds, from computational and theoretical neuroscience to predominantly experimental research. Despite these differences, the same broad pattern emerged across all three pilots: teams frequently used different operational definitions and analytical strategies, leading to highly heterogeneous answers and very limited consensus across most questions.
+
+Together, the pilot studies suggest that the conceptual variability observed in CON²PHYS is not restricted to a particular conference, subfield, or methodological community. Instead, it appears to be a reproducible feature of how neuroscientists translate shared concepts into concrete analyses of the same data.
+
 ## Pilot study 1 – Bernstein Conference 2025 (PhD Symposium)
 
 The first pilot study ran as a hackathon during the Bernstein Conference 2025 PhD Symposium, with roughly 80 participants divided into small teams. 
@@ -33,7 +37,7 @@ Results largely replicated what was observed at Bernstein: directed functional c
 produced near-total disagreement, with answers spread roughly evenly across all available options.
 Questions on neural decoding were a notable exception, yielding substantially more agreement across teams.
 
-The aggregated results across both pilot studies are shown below.
+The aggregated results from the Bernstein and Pre-COSYNE pilot studies are shown below. These figures predate the Pre-FENS event and therefore do not include its responses.
 
 ```{figure} _static/pilot-study.png
 :scale: 70
@@ -48,24 +52,25 @@ Answers are spread across all available options, indicating minimal consensus. A
 
 ## Pilot study 3 – Pre-FENS Brainhack
 
-The third and final pilot study of the CON²PHYS electrophysiology cycle will take place at the
-[Pre-FENS Brainhack 2026](https://pre-fens-brainhack.github.io/brainhack2026/) on **July 5, 2026**,
-the day preceding the [FENS Forum](https://fensforum.org/) in Barcelona, Spain
-(Facultat de Medicina, Universitat de Barcelona).
-The event is organized in collaboration with the IBL, Andrea Navas-Olive and Helena Lluís Sanchez-Lafuente.
-It is sponsored by the IBL, the FNRS, the Nomis Foundation, and the Universitat de Barcelona.
+The third and final pilot study of the CON²PHYS electrophysiology cycle was held at the [Pre-FENS Brainhack 2026](https://pre-fens-brainhack.github.io/brainhack2026/) on **July 5, 2026**, 
+the day preceding the [FENS Forum](https://fensforum.org/) in Barcelona, Spain, at the Facultat de Medicina of the Universitat de Barcelona.
 
-As in the previous two hackathons, participants will work in teams to analyze the same electrophysiology dataset
-and answer multiple-choice questions probing conceptual consistency. 
-Registration will open soon — check the event website for updates.
+The event brought together approximately **40 participants**. Compared with the previous pilot studies, this group had a more predominantly experimental neuroscience background, 
+providing an opportunity to examine whether the patterns observed at Bernstein and COSYNE would also extend to a differently composed scientific audience.
+
+The results were strikingly consistent with those of the previous events. Across the questions addressed during the hackathon, teams adopted substantially different definitions 
+and analytical approaches and arrived at widely divergent answers. No clear consensus emerged for most questions. The recurrence of this pattern in a more experimentally oriented group 
+suggests that conceptual and analytical variability is not confined to a particular neuroscience subfield.
+
+The event was organized in collaboration with the International Brain Laboratory, Andrea Navas-Olive, and Helena Lluís Sanchez-Lafuente, 
+with support from the International Brain Laboratory, F.R.S.-FNRS, the NOMIS Foundation, and the Universitat de Barcelona.
 
 ---
 
 ## Participating in both a pilot study and the full CON²PHYS project?
 
-If you participated in one of the two pilot studies, this does not disqualify you from participating in the full CON²PHYS project.
-On the contrary, we strongly encourage you to do so, since you have already completed a significant part of the study.
-The only thing that we require is that you clearly indicate in the submission form that you participated in one of 
-the pilot studies and answer the related questions.
+If you participated in any of the three pilot studies, this does not disqualify you from participating in the full CON²PHYS project. 
+On the contrary, we strongly encourage you to do so, since you have already completed a meaningful part of the study and are familiar with the dataset and questionnaire. 
+We only ask that you clearly indicate your participation in the relevant section of the submission form and answer the associated questions.
 
 ---
