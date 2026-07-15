@@ -5,3 +5,13 @@
 <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
 {% endblock %}
+
+{% block document %}
+<div class="dataset-update-banner" role="status" aria-label="Dataset update">
+  <div class="dataset-update-banner__content">
+    If you downloaded the dataset before 15 July 2026, please
+    <a href="{% if pagename == 'how_to_participate' %}#dataset-update-mouse-12{% else %}{{ pathto('how_to_participate') }}#dataset-update-mouse-12{% endif %}"><strong>read the update and download the corrected dataset →</strong></a>
+  </div>
+</div>
+{{ super() }}
+{% endblock %}

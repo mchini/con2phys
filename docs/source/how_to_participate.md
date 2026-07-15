@@ -2,6 +2,15 @@
 
 ## Step 1: Download the data and the questionnaire
 
+(dataset-update-mouse-12)=
+```{admonition} Important dataset update — mouse 12 LFP
+:class: warning dataset-update-notice
+
+We identified and corrected a problem affecting the LFP data for mouse 12. If you downloaded the dataset before 15 July 2026, please download the mouse 12 data again before beginning or continuing your analysis. Everything else is unchanged.
+
+**Current dataset version: v1.1 — released 15 July 2026.**
+```
+
 You can download all the data from this [password-protected repository](https://quickshare.internationalbrainlab.org/s/ykT33XQBc668qgB/authenticate/showshare)*.
 
 Password: <span>••••••••••••</span> <button type="button" onclick="this.previousElementSibling.textContent=String.fromCharCode(99,111,110,50,112,104,121,115,50,48,50,54);this.remove();">Reveal</button>
