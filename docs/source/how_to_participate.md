@@ -15,17 +15,14 @@ You can download all the data from this [password-protected repository](https://
 
 Password: <span>••••••••••••</span> <button type="button" onclick="this.previousElementSibling.textContent=String.fromCharCode(99,111,110,50,112,104,121,115,50,48,50,54);this.remove();">Reveal</button>
 
-Data is available as `.npy` or `.mat`. The total size of the dataset is roughly 29 GB.
+Data is available as `.npy`, `.mat`. The total size of the dataset is roughly 29 GB.
+
+**NWB format:** The updated dataset is also available in [Neurodata Without Borders (NWB)](https://nwb.org/) format through the [DANDI Archive](https://sandbox.dandiarchive.org/dandiset/218201/draft). 
+NWB provides a standardized format for neurophysiology data that facilitates data inspection and analysis.
+
 If you download the `.npy` version of the dataset, you can use these [code snippets](/_static/code-snippets.zip) 
 to check that you downloaded the entire dataset and start playing around with the data. 
 A full description of the dataset is available in [Data Structure](data_structure.md).
-
-<!-- DANDI download link temporarily disabled.
-Thanks to [Ryan Ly](https://github.com/rly), the `.npy` version of the
-[dataset](https://sandbox.dandiarchive.org/dandiset/218201?page=1&sortOption=0&sortDir=-1&showDrafts=true&showEmpty=false&pos=3)
-is now also available in the NWB format,
-which comes with increased ease-of-use with many pipelines (e.g. pynapple), and several useful built-in visualization tools!
--->
 
 Download the questionnaire from [here](/_static/questionnaire.pdf).
 
