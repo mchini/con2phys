@@ -83,9 +83,9 @@ CON²PHYS and its associated hackathons have received financial, organizational,
 :hidden:
 
 how_to_participate
-get_updates
 data_structure
 questions
 contribution_and_manuscript
 pilot_studies
 submissions
+get_updates
