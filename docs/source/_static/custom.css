@@ -133,6 +133,78 @@
     outline-offset: 3px;
 }
 
+/* Homepage updates signup */
+.updates-callout {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 1rem 0 2rem;
+    padding: 1.2rem 1.4rem;
+    border: 1px solid #d8dee4;
+    border-left: 5px solid #5f7487;
+    border-radius: 5px;
+    background: #f8fafc;
+    color: #263746;
+    text-align: left;
+}
+
+.updates-callout h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0.65rem;
+}
+
+.updates-callout p {
+    text-align: left;
+}
+
+.updates-callout__action {
+    margin-bottom: 0 !important;
+}
+
+.updates-callout__link {
+    display: inline-block;
+    padding: 0.55rem 0.85rem;
+    border-radius: 4px;
+    background: #2980b9;
+    color: #ffffff !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.updates-callout__link:hover,
+.updates-callout__link:focus-visible {
+    background: #1f6694;
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+
+.updates-callout__link:focus-visible,
+.updates-form-fallback a:focus-visible {
+    outline: 3px solid #b78100;
+    outline-offset: 3px;
+}
+
+/* Responsive Microsoft Forms embed */
+.updates-form-embed {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    margin: 1.5rem 0 1rem;
+    overflow: hidden;
+}
+
+.updates-form-embed__iframe {
+    display: block;
+    width: 100%;
+    height: 70vh;
+    min-height: 480px;
+    max-width: 100%;
+    border: 0;
+}
+
+.updates-form-fallback {
+    text-align: left;
+}
+
 /* Homepage postdoctoral opportunity */
 .opportunity-card {
     box-sizing: border-box;
@@ -240,8 +312,20 @@
 
 @media (max-width: 480px) {
     .news-card,
+    .updates-callout,
     .opportunity-card {
         padding: 1rem;
+    }
+
+    .updates-callout__link {
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+    }
+
+    .updates-form-embed__iframe {
+        height: 75vh;
+        min-height: 520px;
     }
 
     .dataset-update-banner {

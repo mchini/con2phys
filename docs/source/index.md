@@ -36,6 +36,12 @@ you are expected to invest roughly 30–50 hours of work and will be **included 
   </p>
 </article>
 
+<section class="updates-callout" aria-labelledby="updates-callout-title">
+  <h2 id="updates-callout-title">Follow the project</h2>
+  <p>Interested in following CON²PHYS without participating right now? Sign up to receive occasional updates about new results, events, publications, and opportunities to participate.</p>
+  <p class="updates-callout__action"><a class="updates-callout__link" href="get_updates.html">Get CON²PHYS updates →</a></p>
+</section>
+
 ## Postdoctoral opportunity
 
 <section class="opportunity-card" aria-labelledby="postdoctoral-opportunity-title">
@@ -77,6 +83,7 @@ CON²PHYS and its associated hackathons have received financial, organizational,
 :hidden:
 
 how_to_participate
+get_updates
 data_structure
 questions
 contribution_and_manuscript
