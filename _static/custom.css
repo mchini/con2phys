@@ -1,0 +1,365 @@
+/* Force text justification for all body content */
+.wy-nav-content {
+    text-align: justify;
+}
+
+/* Avoid justification in code blocks and tables */
+.wy-nav-content pre,
+.wy-nav-content code,
+.wy-nav-content table {
+    text-align: left;
+}
+
+.wy-nav-content {
+    max-width: 900px !important;
+}
+
+.wy-nav-content p {
+    margin-bottom: 1.2em;
+}
+
+.wy-nav-content h1, 
+.wy-nav-content h2, 
+.wy-nav-content h3 {
+    font-weight: 600;
+    margin-top: 1.6em;
+}
+
+.wy-nav-content {
+    background: white;
+    padding: 3rem !important;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.wy-side-nav-search {
+    background-color: #2980B9 !important;
+}
+
+/* Site-wide notice for the corrected mouse 12 LFP data */
+.dataset-update-banner {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0 0 1rem;
+    padding: 0.65rem 0.9rem;
+    background: #fff4ce;
+    border: 1px solid #d9a400;
+    border-left: 5px solid #8a6500;
+    border-radius: 4px;
+    color: #332700;
+    text-align: left;
+}
+
+.dataset-update-banner__content {
+    line-height: 1.45;
+}
+
+.dataset-update-banner a {
+    color: #745400;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+.dataset-update-banner a:hover {
+    color: #4f3a00;
+}
+
+.dataset-update-banner a:focus-visible {
+    outline: 3px solid #1f5f8b;
+    outline-offset: 3px;
+}
+
+/* Detailed download-page notice */
+.dataset-update-notice {
+    border-color: #d9a400 !important;
+    background: #fffaf0 !important;
+    color: #332700;
+    text-align: left;
+}
+
+.dataset-update-notice .admonition-title {
+    background: #8a6500 !important;
+    color: #ffffff;
+    text-align: left;
+}
+
+.dataset-update-notice p {
+    text-align: left;
+}
+
+/* Homepage news coverage */
+.news-card {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 1rem 0 2rem;
+    padding: 1.3rem 1.5rem;
+    border: 1px solid #d8dee4;
+    border-left: 5px solid #2980b9;
+    border-radius: 5px;
+    background: #f7fafc;
+    text-align: left;
+}
+
+.news-card p {
+    text-align: left;
+}
+
+.news-card__meta,
+.news-card__authors {
+    color: #59636e;
+    font-size: 0.92rem;
+}
+
+.news-card__meta {
+    margin-bottom: 0.35rem !important;
+    font-weight: 600;
+}
+
+.news-card__title {
+    margin-top: 0 !important;
+    margin-bottom: 0.55rem;
+}
+
+.news-card__authors {
+    margin-bottom: 0.9rem !important;
+}
+
+.news-card__cta {
+    margin-bottom: 0 !important;
+    font-weight: 600;
+}
+
+.news-card a:focus-visible {
+    outline: 3px solid #b78100;
+    outline-offset: 3px;
+}
+
+/* Homepage updates signup */
+.updates-callout {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 1rem 0 2rem;
+    padding: 1.2rem 1.4rem;
+    border: 1px solid #d8dee4;
+    border-left: 5px solid #5f7487;
+    border-radius: 5px;
+    background: #f8fafc;
+    color: #263746;
+    text-align: left;
+}
+
+.updates-callout h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0.65rem;
+}
+
+.updates-callout p {
+    text-align: left;
+}
+
+.updates-callout__action {
+    margin-bottom: 0 !important;
+}
+
+.updates-callout__link {
+    display: inline-block;
+    padding: 0.55rem 0.85rem;
+    border-radius: 4px;
+    background: #2980b9;
+    color: #ffffff !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.updates-callout__link:hover,
+.updates-callout__link:focus-visible {
+    background: #1f6694;
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+
+.updates-callout__link:focus-visible,
+.updates-form-fallback a:focus-visible {
+    outline: 3px solid #b78100;
+    outline-offset: 3px;
+}
+
+/* Responsive Microsoft Forms embed */
+.updates-form-embed {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    margin: 1.5rem 0 1rem;
+    overflow: hidden;
+}
+
+.updates-form-embed__iframe {
+    display: block;
+    width: 100%;
+    height: 70vh;
+    min-height: 480px;
+    max-width: 100%;
+    border: 0;
+}
+
+.updates-form-fallback {
+    text-align: left;
+}
+
+/* Homepage postdoctoral opportunity */
+.opportunity-card {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 1rem 0 2rem;
+    padding: 1.4rem 1.5rem;
+    border: 1px solid #b8d4d0;
+    border-left: 5px solid #287f78;
+    border-radius: 5px;
+    background: #f3faf9;
+    color: #243331;
+    text-align: left;
+}
+
+.opportunity-card p {
+    text-align: left;
+}
+
+.opportunity-card__eyebrow {
+    margin: 0 0 0.3rem !important;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.opportunity-card h3 {
+    margin-top: 0 !important;
+    margin-bottom: 0.7rem;
+}
+
+.opportunity-card__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.7rem 1.2rem;
+    margin-top: 1rem;
+}
+
+.opportunity-card__primary-link {
+    display: inline-block;
+    padding: 0.55rem 0.85rem;
+    border-radius: 4px;
+    background: #287f78;
+    color: #ffffff !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.opportunity-card__primary-link:hover,
+.opportunity-card__primary-link:focus-visible {
+    background: #1f665f;
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+
+.opportunity-card__secondary-link {
+    font-weight: 600;
+}
+
+.opportunity-card a:focus-visible {
+    outline: 3px solid #b78100;
+    outline-offset: 3px;
+}
+
+/* Homepage supporter grid */
+.supporter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 0.8rem;
+    margin: 1rem 0 2rem;
+    text-align: left;
+}
+
+.supporter-card {
+    display: flex;
+    box-sizing: border-box;
+    min-width: 0;
+    min-height: 72px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9rem 1rem;
+    border: 1px solid #d8dee4;
+    border-radius: 5px;
+    background: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.supporter-card:hover,
+.supporter-card:focus-visible {
+    border-color: #2980b9;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.10);
+    transform: translateY(-1px);
+}
+
+.supporter-card:focus-visible {
+    outline: 3px solid #b78100;
+    outline-offset: 3px;
+}
+
+@media (max-width: 480px) {
+    .news-card,
+    .updates-callout,
+    .opportunity-card {
+        padding: 1rem;
+    }
+
+    .updates-callout__link {
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+    }
+
+    .updates-form-embed__iframe {
+        height: 75vh;
+        min-height: 520px;
+    }
+
+    .dataset-update-banner {
+        padding: 0.6rem 0.75rem;
+    }
+
+    .opportunity-card__actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .opportunity-card__primary-link,
+    .opportunity-card__secondary-link {
+        box-sizing: border-box;
+        width: 100%;
+        overflow-wrap: anywhere;
+    }
+
+    .opportunity-card__primary-link {
+        text-align: center;
+    }
+
+    .supporter-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .supporter-card {
+        transition: none;
+    }
+
+    .supporter-card:hover,
+    .supporter-card:focus-visible {
+        transform: none;
+    }
+}
